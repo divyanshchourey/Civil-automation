@@ -1,0 +1,139 @@
+.wow-space-header-section {
+  width: 100%;
+  min-height: 320px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.wow-space-header-bg {
+  width: 100%;
+  min-height: 320px;
+  background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('https://plus.unsplash.com/premium_photo-1661340695541-ee1ca7efedd0?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.wow-space-header-content {
+  margin-left: 10vw;
+  color: #fff;
+  z-index: 2;
+}
+
+.wow-space-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+  margin-top: 0;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+.wow-space-breadcrumb {
+  font-size: 1.2rem;
+  color: #fff;
+  opacity: 0.95;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+.wow-space-breadcrumb-sep {
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+.wow-space-main-section {
+  width: 100%;
+  background: #fff;
+  padding: 60px 0 40px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.wow-space-main-container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 24px;
+  text-align: left;
+}
+
+.wow-space-subtitle {
+  color: #888;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.wow-space-main-title {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #232b2b;
+  margin: 0 0 24px 0;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.wow-space-main-lead {
+  font-size: 1.1rem;
+  color: #232b2b;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+.wow-space-main-desc {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 18px;
+  line-height: 1.7;
+}
+
+@media (max-width: 900px) {
+  .wow-space-header-section {
+    min-height: 180px;
+    margin-bottom: 0;
+  }
+  .wow-space-header-bg {
+    min-height: 180px;
+  }
+  .wow-space-header-content {
+    margin-left: 5vw;
+  }
+  .wow-space-title {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  .wow-space-breadcrumb {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .wow-space-header-section {
+    min-height: 120px;
+  }
+  .wow-space-header-bg {
+    min-height: 120px;
+  }
+  .wow-space-header-content {
+    margin-left: 2vw;
+  }
+  .wow-space-title {
+    font-size: 1.1rem;
+    margin-bottom: 4px;
+  }
+  .wow-space-breadcrumb {
+    font-size: 0.9rem;
+  }
+  .wow-space-breadcrumb-sep {
+    margin: 0 4px;
+  }
+  .wow-space-main-container {
+    padding: 0 4px;
+  }
+  .wow-space-main-title {
+    font-size: 0.98rem;
+    padding: 10px 8px;
+  }
+  .wow-space-main-container {
+    padding: 10px 8px;
+  }
+} 

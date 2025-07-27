@@ -1,0 +1,85 @@
+.portfolio-header-section {
+  width: 100%;
+  min-height: 320px;
+  position: relative;
+  margin-bottom: 0;
+}
+
+.portfolio-header-bg {
+  width: 100%;
+  min-height: 320px;
+  background: linear-gradient(rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url('https://plus.unsplash.com/premium_photo-1661340695541-ee1ca7efedd0?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') center center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.portfolio-header-content {
+  margin-left: 10vw;
+  color: #fff;
+  z-index: 2;
+}
+
+.portfolio-title {
+  font-size: 2.8rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  margin-bottom: 18px;
+  margin-top: 0;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+.portfolio-breadcrumb {
+  font-size: 1.2rem;
+  color: #fff;
+  opacity: 0.95;
+  font-family: 'Montserrat', 'Segoe UI', Arial, sans-serif;
+}
+
+.portfolio-breadcrumb-sep {
+  margin: 0 8px;
+  color: #fff;
+  opacity: 0.7;
+}
+
+@media (max-width: 900px) {
+  .portfolio-header-section {
+    min-height: 180px;
+    margin-bottom: 0;
+  }
+  .portfolio-header-bg {
+    min-height: 180px;
+  }
+  .portfolio-header-content {
+    margin-left: 5vw;
+  }
+  .portfolio-title {
+    font-size: 2rem;
+    margin-bottom: 12px;
+  }
+  .portfolio-breadcrumb {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .portfolio-header-section {
+    min-height: 160px;
+  }
+  .portfolio-header-bg {
+    min-height: 160px;
+  }
+  .portfolio-header-content {
+    margin-left: 4vw;
+  }
+  .portfolio-title {
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+  }
+  .portfolio-breadcrumb {
+    font-size: 1rem;
+  }
+  .portfolio-breadcrumb-sep {
+    margin: 0 6px;
+  }
+} 
