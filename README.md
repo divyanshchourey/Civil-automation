@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# Civil Automation Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, responsive website for civil automation services built with React, TypeScript, and Node.js.
 
-## Available Scripts
+## 🚀 Features
 
-In the project directory, you can run:
+- **Responsive Design**: Modern UI with UIkit framework
+- **Interactive Components**: React Router for navigation, React Slick for carousels
+- **Backend API**: Express.js server with contact form handling
+- **TypeScript**: Full type safety throughout the application
+- **Modern Icons**: FontAwesome and React Icons integration
+- **Particle Effects**: Interactive background animations
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Frontend
+- React.js 19.1.0
+- TypeScript 4.9.5
+- React Router DOM 7.6.1
+- UIkit 3.23.7
+- React Slick 0.30.3
+- FontAwesome 6.7.2
+- React Icons 5.5.0
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Backend
+- Node.js
+- Express.js
+- MongoDB (with Mongoose)
+- Nodemailer
 
-### `npm test`
+## 📦 Installation
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository:
+```bash
+git clone https://github.com/divyanshchourey/Civil-automation.git
+cd Civil-automation
+```
 
-### `npm run build`
+2. Install dependencies:
+```bash
+npm install
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+3. Start the development server:
+```bash
+npm start
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+4. Start the backend server (in a separate terminal):
+```bash
+cd backend
+node server.js
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🚀 Available Scripts
 
-### `npm run eject`
+- `npm start` - Runs the app in development mode
+- `npm run build` - Builds the app for production
+- `npm test` - Launches the test runner
+- `npm run eject` - Ejects from Create React App
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📁 Project Structure
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```
+├── src/
+│   ├── components/     # React components
+│   ├── styles/        # CSS files
+│   ├── assets/        # Static assets
+│   └── images/        # Image files
+├── backend/
+│   └── server.js      # Express server
+├── public/
+│   └── images/        # Public images
+└── package.json
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## 🌐 Deployment
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The frontend can be deployed to Firebase Hosting, and the backend can be deployed to platforms like Heroku, Railway, or Vercel.
 
-## Learn More
+## 📧 Contact
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+For any queries or support, please contact through the website's contact form.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 📄 License
+
+This project is part of an internship portfolio.
